@@ -43,12 +43,14 @@ html {
 
 }
 
-.social > li {
-  display:inline-block;
-  text-align: center; 
-  margin-top: 2em;
-         
+li {
+  display: inline-block;      
 } 
+
+ul {
+  padding: 0;
+}
+
 
 @media only screen and (max-width: 500px) {
     .intro {
@@ -57,4 +59,5 @@ html {
     .masthead-heading {
         font-size: 3em;
     }
+    .content-footer {padding: 1em 10em;}
 }
